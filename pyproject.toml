@@ -20,6 +20,7 @@ dependencies = [
     "setuptools",
     "scikit-fmm",
     "scikit-image",
+    "multiprocess"
 ]
 
 [build-system]
