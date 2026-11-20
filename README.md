@@ -7,7 +7,7 @@ Simulação de voo do foguete Hefesto para a IREC. Combina:
 
 Consulte o [GLOSSARY.md](file:///home/icaro/Hub/01-Projetos_e_UFJF/supernova/simulacoes/github/hefesto%20privado-estrutura-vibe/GLOSSARY.md) para as definições canônicas de termos, referenciais de coordenadas e convenção de momentos de inércia `(I_11, I_22, I_33) = (I_transversal, I_transversal, I_longitudinal)`.
 ## Downloads Necessários
-Para o funcionamento do CPython é necessario baixar o Build Tools da Microsoft para C++, [Esse](https://stackoverflow.com/questions/40504552/how-to-install-visual-c-build-tools) site é um tutorial para a instalação do tools, após isso apenas rode o setup.bat antes de rodar o codigo pelo vscode e o projeto estará funcionando. Caso a extensão apresente erros é necessario limpar o cache do vscode, provavelmentet o erro aparecido é o mesmo [desse](https://stackoverflow.com/questions/67698176/error-loading-webview-error-could-not-register-service-workers-typeerror-fai) stack ensinando como voce pode resolver o erro.
+Para o funcionamento do CPython é necessario baixar o Build Tools da Microsoft para C++, [Esse](https://stackoverflow.com/questions/40504552/how-to-install-visual-c-build-tools) site é um tutorial para a instalação do tools, após isso apenas rode o setup.bat antes de rodar o codigo pelo vscode e o projeto estará funcionando. Caso a extensão apresente erros é necessario limpar o cache do vscode, provavelmente o erro aparecido é o mesmo [dessa](https://stackoverflow.com/questions/67698176/error-loading-webview-error-could-not-register-service-workers-typeerror-fai) thread ensinando como voce pode resolver o erro.
 ## Arquitetura e Direção de Dependências
 
 O projeto segue um fluxo **estritamente unidirecional**:
