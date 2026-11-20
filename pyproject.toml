@@ -11,6 +11,15 @@ dependencies = [
     "pyyaml>=6.0.3",
     "joblib>=1.6.0",
     "openmotor",
+    "pytest>=9.1.1",
+    "PyQt6",
+    "ezdxf",
+    "platformdirs",
+    "pyqt_distutils",
+    "cython",
+    "setuptools",
+    "scikit-fmm",
+    "scikit-image",
 ]
 
 [build-system]
@@ -27,6 +36,8 @@ openmotor = { git = "https://github.com/reilleya/openMotor.git", rev = "dcc7fd62
 
 [dependency-groups]
 dev = [
+    "deptry>=0.25.1",
+    "pipreqs>=0.5.0",
     "pytest>=9.1.1",
     "ruff>=0.17.3",
 ]

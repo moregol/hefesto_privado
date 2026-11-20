@@ -5,7 +5,10 @@ Isola todas as peculiaridades do OpenMotor (proteção do backend do matplotlib,
 restauração do `sys.excepthook` e silenciamento do logger do `uilib`) em uma
 única costura (seam).
 """
+
 from __future__ import annotations
+from rocketpy import Flight
+
 
 import contextlib
 import copy
@@ -37,6 +40,8 @@ logging.getLogger("uilib").setLevel(logging.ERROR)
 
 try:
     with contextlib.redirect_stdout(io.StringIO()):
+        RAIZ = Path(__file__).resolve().parents[2]   
+        sys.path.insert(0, str(RAIZ / "third_party" / "openMotor"))
         import uilib.logger as _uilib_logger
         from motorlib.motor import Motor
         from uilib.fileIO import fileTypes, loadFile

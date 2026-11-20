@@ -1,6 +1,7 @@
 """Runner rápido para exploração na IDE."""
 from __future__ import annotations
-
+import sys
+from pathlib import Path
 from rocketpy import Flight
 
 from configs import HEFESTO, IREC, MOTOR_IREC
